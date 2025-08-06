@@ -40,9 +40,11 @@ CREATE TABLE `books` (
 --
 
 INSERT INTO `books` (`id`, `title`, `desc`, `price`, `cover`) VALUES
-(1, 'Gamer of throne', 'this is an amazing book to read when you are free ', 2343.2, 'https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'),
-(2, 'Fire folks', 'fire folks is ming blowing book to read it will blow your mind', 2342.3, 'https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
-
+(1, 'The Secret', 'The Secret is a 2006 self-help book by Rhonda based on the belief of the pseudoscientific law of attraction, ', 1499.0, 'https://m.media-amazon.com/images/I/81MArWaiw1L._UF894,1000_QL80_.jpg'),
+(2, 'The Alchemist', 'The Alchemist is a novel by Brazilian author Paulo Coelho which was first published in 1988. Originally written in Portuguese, it became a widely translated international bestseller.', 1499.0, 'https://static.wixstatic.com/media/8cc233_da3154cf2cdd4e979a841903fb3cf770~mv2.jpg/v1/fill/w_1585,h_2400,al_c,q_90/The%20Alchemist%20cover.jpg'),
+(3, 'The Psychology of Money', 'The Psychology of Money, by award-winning author Morgan Housel shares 19 short stories exploring the strange ways people think about money., ', 2401.9, 'https://m.media-amazon.com/images/I/71XEsXS5RlL._UF894,1000_QL80_.jpg'),
+(4, 'Atomic Habits', 'Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones is a 2018 self-help book by James Clear, a researcher of habit formation., ', 1799.0, 'https://m.media-amazon.com/images/I/81F90H7hnML._UF894,1000_QL80_.jpg');
+  
 --
 -- Indexes for dumped tables
 --
@@ -67,3 +69,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
